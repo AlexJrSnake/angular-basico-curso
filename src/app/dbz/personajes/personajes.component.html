@@ -1,0 +1,9 @@
+<div class="col">
+    <h3>Peronaje</h3>
+    <hr>
+    <ul>
+        <li *ngFor="let pdgz of personajes; let i = index"> 
+            {{i+1}} - {{pdgz.nombre}} - {{pdgz.poder | number}}
+         </li>
+    </ul>
+</div>
